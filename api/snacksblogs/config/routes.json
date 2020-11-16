@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/ssas",
-      "handler": "ssa.find",
+      "path": "/snacksblogs",
+      "handler": "snacksblogs.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/ssas/count",
-      "handler": "ssa.count",
+      "path": "/snacksblogs/count",
+      "handler": "snacksblogs.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/ssas/:id",
-      "handler": "ssa.findOne",
+      "path": "/snacksblogs/:id",
+      "handler": "snacksblogs.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/ssas",
-      "handler": "ssa.create",
+      "path": "/snacksblogs",
+      "handler": "snacksblogs.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/ssas/:id",
-      "handler": "ssa.update",
+      "path": "/snacksblogs/:id",
+      "handler": "snacksblogs.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/ssas/:id",
-      "handler": "ssa.delete",
+      "path": "/snacksblogs/:id",
+      "handler": "snacksblogs.delete",
       "config": {
         "policies": []
       }

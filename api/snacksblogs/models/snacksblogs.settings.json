@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "snacksblogs",
+  "info": {
+    "name": "Snacksblogs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "created": {
+      "type": "date"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "heytext": {
+      "type": "text"
+    },
+    "bloggs": {
+      "type": "json"
+    },
+    "snackinlist": {
+      "type": "json"
+    }
+  }
+}
