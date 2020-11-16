@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ssas",
+      "handler": "ssa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssas/count",
+      "handler": "ssa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssas/:id",
+      "handler": "ssa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ssas",
+      "handler": "ssa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ssas/:id",
+      "handler": "ssa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ssas/:id",
+      "handler": "ssa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

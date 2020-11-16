@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ssas",
+  "info": {
+    "name": "ssa"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "a": {
+      "type": "string"
+    }
+  }
+}
